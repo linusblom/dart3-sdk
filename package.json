@@ -1,7 +1,18 @@
 {
   "name": "dart3-sdk",
-  "version": "0.0.1",
-  "main": "index.js",
+  "version": "0.0.2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "source": "src/index.ts",
   "author": "Linus Blom",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "github:linusblom/dart3-sdk",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "tslint": "^5.20.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.7.4"
+  }
 }
