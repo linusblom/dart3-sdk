@@ -1,0 +1,7 @@
+{
+  "name": "dart3-sdk",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Linus Blom",
+  "license": "MIT"
+}
