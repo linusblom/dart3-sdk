@@ -1,7 +1,7 @@
 export enum GameType {
-  HALVEIT = "halveit",
-  LEGS = "legs",
-  LEGS_CLASSIC = "legs-classic",
-  THREE_HUNDRED_ONE = "301",
-  FIVE_HUNDRED_ONE = "501"
+  HalveIt = 'halveit',
+  Legs = 'legs',
+  LegsClassic = 'legs-classic',
+  Three01 = '301',
+  Five01 = '501',
 }
