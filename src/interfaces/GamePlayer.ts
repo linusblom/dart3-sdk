@@ -1,4 +1,5 @@
 import { Round } from './Round';
+import { PlayerBase } from './PlayerBase';
 
 export interface GamePlayer {
   id: string;
@@ -11,4 +12,5 @@ export interface GamePlayer {
   rounds: {
     [key: string]: Round;
   };
+  base?: PlayerBase;
 }

@@ -6,3 +6,4 @@ export { Score } from './Score';
 export { Jackpot } from './Jackpot';
 export { Account } from './Account';
 export { Player } from './Player';
+export { PlayerBase } from './PlayerBase';
