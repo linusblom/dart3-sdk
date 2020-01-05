@@ -1,4 +1,4 @@
-import { Transaction } from './Transactions';
+import { Transaction } from './Transaction';
 
 export interface Player {
   id: string;

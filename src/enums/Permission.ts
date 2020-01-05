@@ -1,5 +1,6 @@
 export enum Permission {
   CoreAccountWrite = 'core:account:write',
+  CoreMusicPlay = 'core:music:play',
   GameBet10 = 'game:bet:10',
   GameBet20 = 'game:bet:20',
   GameBet50 = 'game:bet:50',
