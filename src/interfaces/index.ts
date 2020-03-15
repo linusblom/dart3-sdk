@@ -5,6 +5,6 @@ export { Round } from './Round';
 export { Score } from './Score';
 export { Jackpot } from './Jackpot';
 export { Account } from './Account';
-export { Player } from './Player';
+export * from './Player';
 export { PlayerBase } from './PlayerBase';
 export { Transaction } from './Transaction';
