@@ -14,17 +14,3 @@ export interface Player {
 export interface CreatePlayer {
   name: string;
 }
-
-export const makePlayer = (values: Partial<Player> = {}): Player => ({
-  id: 0,
-  account_id: '',
-  name: '',
-  balance: 0,
-  created_at: null,
-  color: '#FFFFFF',
-  avatar: '',
-  xp: 0,
-  high_score: 0,
-  one_hundred_eighties: 0,
-  ...values,
-});

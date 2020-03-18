@@ -1,17 +1,13 @@
-import { GamePlayer } from './GamePlayer';
-import { BoardData } from './BoardData';
 import { GameType } from '../enums';
 
 export interface Game {
-  id: string;
+  id: number;
+  account_id: string;
   type: GameType;
+  legs: number;
+  sets: number;
+  game_player_id: number;
   bet: number;
-  started: number;
-  ended: number;
-  playerIds: string[];
-  prizePool: number;
-  currentTurn: number;
-  currentRound: number;
-  players: GamePlayer[];
-  boardData?: BoardData;
+  started_at: Date;
+  ended_at: Date;
 }

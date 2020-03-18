@@ -1,9 +1,11 @@
 import { TransactionType } from '../enums';
 
 export interface Transaction {
-  id: string;
+  id: number;
+  player_id: number;
   type: TransactionType;
-  amount: number;
+  debit: number;
+  credit: number;
   balance: number;
-  timestamp: number;
+  created_at: Date;
 }
