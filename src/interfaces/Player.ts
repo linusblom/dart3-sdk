@@ -2,6 +2,7 @@ export interface Player {
   id: number;
   account_id: string;
   name: string;
+  email: string;
   balance: number;
   created_at: Date;
   color: string;
@@ -13,4 +14,5 @@ export interface Player {
 
 export interface CreatePlayer {
   name: string;
+  email: string;
 }
