@@ -17,6 +17,6 @@ export interface CreatePlayer {
   email: string;
 }
 
-export interface UpdatePlayer extends CreatePlayer {
-  id: number;
+export interface UpdatePlayer {
+  name: string;
 }
