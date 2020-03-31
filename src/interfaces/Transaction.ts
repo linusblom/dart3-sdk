@@ -2,10 +2,16 @@ import { TransactionType } from '../enums';
 
 export interface Transaction {
   id: number;
-  player_id: number;
+  playerId: number;
   type: TransactionType;
-  debit: number;
-  credit: number;
-  balance: number;
-  created_at: Date;
+  debit: string;
+  credit: string;
+  balance: string;
+  createdAt: Date;
+}
+
+export interface PlayerTransaction {
+  type: TransactionType.Deposit | TransactionType.Withdrawal | TransactionType.Transfer;
+  amount: number;
+  toPlayerId?: number;
 }

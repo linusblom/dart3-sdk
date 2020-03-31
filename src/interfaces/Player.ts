@@ -1,15 +1,17 @@
 export interface Player {
   id: number;
-  account_id: string;
+  accountId: string;
   name: string;
   email: string;
-  balance: number;
-  created_at: Date;
+  balance: string;
+  createdAt: Date;
+  deletedAt: Date;
   color: string;
   avatar: string;
   xp: number;
-  high_score: number;
-  one_hundred_eighties: number;
+  highScore: number;
+  oneHundredEighties: number;
+  nineDarters: number;
 }
 
 export interface CreatePlayer {
