@@ -10,8 +10,8 @@ export interface Transaction {
   createdAt: Date;
 }
 
-export interface PlayerTransaction {
-  type: TransactionType.Deposit | TransactionType.Withdrawal | TransactionType.Transfer;
+export interface TransactionPayload {
+  type: TransactionType;
   amount: number;
-  toPlayerId?: number;
+  description?: string;
 }
