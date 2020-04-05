@@ -2,7 +2,6 @@ import { TransactionType } from '../enums';
 
 export interface Transaction {
   id: number;
-  playerId: number;
   type: TransactionType;
   debit: string;
   credit: string;

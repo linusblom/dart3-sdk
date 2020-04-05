@@ -1,6 +1,7 @@
+import { Transaction } from './Transaction';
+
 export interface Player {
   id: number;
-  accountId: string;
   name: string;
   email: string;
   balance: string;
@@ -12,6 +13,7 @@ export interface Player {
   highScore: number;
   oneHundredEighties: number;
   nineDarters: number;
+  transactions: Transaction[];
 }
 
 export interface CreatePlayer {
