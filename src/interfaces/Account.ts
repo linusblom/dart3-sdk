@@ -12,6 +12,14 @@ export interface Account {
   lastLogin: Date;
   loginCount: number;
   userMetaData: MetaData;
+  identities: Identity[];
+}
+
+export interface Identity {
+  connection: string;
+  provider: string;
+  userId: string;
+  isSocial: boolean;
 }
 
 export interface MetaData {
