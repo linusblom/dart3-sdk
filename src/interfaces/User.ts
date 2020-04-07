@@ -11,7 +11,7 @@ export interface User {
   lastIp: string;
   lastLogin: Date;
   loginCount: number;
-  userMetaData: MetaData;
+  userMetadata: MetaData;
   identities: Identity[];
 }
 
