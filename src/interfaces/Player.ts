@@ -10,9 +10,6 @@ export interface Player {
   color: string;
   avatar: string;
   xp: number;
-  highScore: number;
-  oneHundredEighties: number;
-  nineDarters: number;
   transactions: Transaction[];
 }
 

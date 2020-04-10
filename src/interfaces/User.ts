@@ -13,6 +13,7 @@ export interface User {
   loginCount: number;
   userMetadata: MetaData;
   identities: Identity[];
+  bank: Bank;
 }
 
 export interface Identity {
@@ -24,4 +25,9 @@ export interface Identity {
 
 export interface MetaData {
   currency: string;
+}
+
+export interface Bank {
+  players: string;
+  turnOver: string;
 }
