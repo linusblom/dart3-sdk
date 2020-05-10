@@ -6,4 +6,5 @@ export enum TransactionType {
   Withdrawal = 'withdrawal',
   Transfer = 'transfer',
   System = 'system',
+  Refund = 'refund',
 }

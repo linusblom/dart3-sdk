@@ -1,5 +1,5 @@
 export enum GameType {
-  HalveIt = 'halveit',
+  HalveIt = 'halve_it',
   Legs = 'legs',
   Three01SingleInDoubleOut = '301_si_do',
   Three01SDoubleInDoubleOut = '301_di_do',
