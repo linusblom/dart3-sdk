@@ -1,25 +1,24 @@
-import { GameType, GameVariant } from '../enums';
-import { GamePlayer } from './GamePlayer';
+import { GameType } from '../enums';
+import { TeamPlayer } from './TeamPlayer';
 
 export interface Game {
   id: number;
   type: GameType;
-  variant: GameVariant;
+  tournament: boolean;
+  team: boolean;
   legs: number;
   sets: number;
-  gamePlayerId: number;
   bet: number;
   createdAt: Date;
   startedAt: Date;
   endedAt: Date;
-  currentSet: number;
-  currentLeg: number;
-  players: GamePlayer[];
+  pendingPlayers?: TeamPlayer[];
 }
 
 export interface CreateGame {
   type: GameType;
-  variant: GameVariant;
+  tournament: boolean;
+  team: boolean;
   legs: number;
   sets: number;
   bet: number;

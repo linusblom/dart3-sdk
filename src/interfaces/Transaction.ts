@@ -9,8 +9,7 @@ export interface Transaction {
   createdAt: Date;
 }
 
-export interface TransactionPayload {
-  type: TransactionType;
+export interface CreateTransaction {
   amount: number;
   description?: string;
 }

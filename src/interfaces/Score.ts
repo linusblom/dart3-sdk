@@ -1,21 +1,14 @@
-import { GamePlayer } from './GamePlayer';
-
 export interface Score {
   value: number;
   multiplier: number;
 }
 
-export interface ScoreTotal extends Score {
-  total: number;
+export interface ScoreApproved extends Score {
+  approvedScore: number;
 }
 
 export interface RoundScore {
-  scores: ScoreTotal[];
-  total: number;
+  scores: ScoreApproved[];
+  nextScore: number;
   xp: number;
-}
-
-export interface ScoreResponse {
-  gamePlayerId: number;
-  player: GamePlayer;
 }

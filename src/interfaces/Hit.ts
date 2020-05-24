@@ -1,12 +1,13 @@
-export interface GameScore {
+export interface Hit {
   id: number;
-  gamePlayerId: number;
+  matchTeamId: number;
+  playerId: number;
   dart: number;
   round: number;
   leg: number;
   set: number;
   value: number;
   multiplier: number;
-  total: number;
+  approvedScore: number;
   gem: boolean;
 }
