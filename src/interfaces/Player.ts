@@ -10,7 +10,7 @@ export interface Player {
   color: string;
   avatar: string;
   xp: number;
-  seed: number;
+  pro: boolean;
   turnOver: string;
   net: string;
   transactions: Transaction[];
@@ -23,5 +23,5 @@ export interface CreatePlayer {
 
 export interface UpdatePlayer {
   name: string;
-  seed: number;
+  pro: number;
 }

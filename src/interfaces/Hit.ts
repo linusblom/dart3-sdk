@@ -11,3 +11,11 @@ export interface Hit {
   approvedScore: number;
   gem: boolean;
 }
+
+export interface RoundHit {
+  id: string;
+  teamId: number;
+  round: number;
+  score: number;
+  approvedScore: number;
+}

@@ -1,5 +1,6 @@
 import { MatchStatus } from '../enums';
 import { MatchTeam } from './MatchTeam';
+import { RoundHit } from './Hit';
 
 export interface Match {
   id: number;
@@ -14,10 +15,10 @@ export interface Match {
   createdAt: Date;
   startedAt: Date;
   endedAt: Date;
-  teams: MatchTeam[];
 }
 
 export interface MatchActive {
+  id: number;
   round: number;
   set: number;
   leg: number;
@@ -25,4 +26,10 @@ export interface MatchActive {
   playerId: number;
   teamId: number;
   currentScore: number;
+}
+
+export interface MatchResponse {
+  matches: Match[];
+  teams: MatchTeam[];
+  hits: RoundHit[];
 }
