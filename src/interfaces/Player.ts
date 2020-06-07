@@ -2,6 +2,7 @@ import { Transaction } from './Transaction';
 
 export interface Player {
   id: number;
+  uid: string;
   name: string;
   email: string;
   balance: string;

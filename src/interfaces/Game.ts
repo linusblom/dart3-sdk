@@ -3,6 +3,7 @@ import { TeamPlayer } from './TeamPlayer';
 
 export interface Game {
   id: number;
+  uid: string;
   type: GameType;
   tournament: boolean;
   team: boolean;

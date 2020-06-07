@@ -7,5 +7,5 @@ export interface TeamPlayer {
 }
 
 export interface CreateTeamPlayer {
-  playerId: number;
+  uid: string;
 }
