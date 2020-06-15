@@ -30,4 +30,5 @@ export interface MetaData {
 export interface Bank {
   players: string;
   turnOver: string;
+  inPlay: string;
 }

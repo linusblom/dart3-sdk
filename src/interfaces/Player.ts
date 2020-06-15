@@ -5,16 +5,16 @@ export interface Player {
   uid: string;
   name: string;
   email: string;
-  balance: string;
   createdAt: Date;
   deletedAt: Date;
   color: string;
   avatar: string;
   xp: number;
   pro: boolean;
-  turnOver: string;
-  net: string;
-  transactions: Transaction[];
+  turnOver?: string;
+  net?: string;
+  balance?: string;
+  transactions?: Transaction[];
 }
 
 export interface CreatePlayer {

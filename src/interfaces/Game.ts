@@ -10,6 +10,7 @@ export interface Game {
   legs: number;
   sets: number;
   bet: number;
+  prizePool: string;
   createdAt: Date;
   startedAt: Date;
   endedAt: Date;
