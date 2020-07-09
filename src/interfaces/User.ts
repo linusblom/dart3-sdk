@@ -25,6 +25,7 @@ export interface Identity {
 
 export interface MetaData {
   currency: string;
+  bootstrapped: boolean;
 }
 
 export interface Bank {
