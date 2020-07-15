@@ -7,5 +7,6 @@ export interface MatchTeam {
   score: number;
   position: number;
   gems: number;
+  jackpotPaid: boolean;
   playerIds: number[];
 }
