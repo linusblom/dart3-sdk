@@ -18,4 +18,5 @@ export interface RoundHit {
   round: number;
   score: number;
   approvedScore: number;
+  gems: boolean[];
 }
