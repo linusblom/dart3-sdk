@@ -1,7 +1,6 @@
 import { MatchStatus } from '../enums';
 import { MatchTeam } from './MatchTeam';
 import { RoundHit } from './Hit';
-import { RoundJackpot } from './Jackpot';
 
 export interface Match {
   id: number;
@@ -34,5 +33,4 @@ export interface MatchResponse {
   matches: Match[];
   teams: MatchTeam[];
   hits: RoundHit[];
-  jackpot?: RoundJackpot;
 }

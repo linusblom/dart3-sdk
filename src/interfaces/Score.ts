@@ -2,6 +2,7 @@ import { RoundHit } from './Hit';
 import { Match } from './Match';
 import { MatchTeam } from './MatchTeam';
 import { Game } from './Game';
+import { RoundJackpot } from '.';
 
 export interface Score {
   value: number;
@@ -23,4 +24,5 @@ export interface RoundResponse {
   matches: Partial<Match>[];
   teams: Partial<MatchTeam>[];
   hits: RoundHit[];
+  jackpot?: RoundJackpot;
 }

@@ -5,8 +5,8 @@ export interface MatchTeam {
   sets: number;
   legs: number;
   score: number;
-  position: number;
   gems: number;
+  active: boolean;
   jackpotPaid: boolean;
   playerIds: number[];
 }

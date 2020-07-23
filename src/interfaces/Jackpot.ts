@@ -6,6 +6,5 @@ export interface Jackpot {
 
 export interface RoundJackpot {
   gems: boolean[];
-  playerIds: number[];
-  value?: string;
+  playerIds?: number[];
 }
