@@ -17,18 +17,6 @@ export interface Match {
   endedAt: Date;
 }
 
-export interface MatchActive {
-  id: number;
-  round: number;
-  set: number;
-  leg: number;
-  matchTeamId: number;
-  playerId: number;
-  teamId: number;
-  currentScore: number;
-  gems?: boolean[];
-}
-
 export interface MatchResponse {
   matches: Match[];
   teams: MatchTeam[];

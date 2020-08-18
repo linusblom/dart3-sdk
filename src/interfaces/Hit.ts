@@ -14,7 +14,7 @@ export interface Hit {
 
 export interface RoundHit {
   id: string;
-  teamId: number;
+  matchTeamId: number;
   round: number;
   score: number;
   approvedScore: number;
