@@ -1,5 +1,6 @@
 import { GameType } from '../enums';
 import { TeamPlayer } from './TeamPlayer';
+import { Winner } from './Team';
 
 export interface Game {
   id: number;
@@ -15,6 +16,7 @@ export interface Game {
   startedAt: Date;
   endedAt: Date;
   pendingPlayers?: TeamPlayer[];
+  winners?: Winner[];
 }
 
 export interface CreateGame {
