@@ -1,4 +1,4 @@
-export interface Results {
+export interface Result {
   teamId: number;
   playerId: number;
   position: number;

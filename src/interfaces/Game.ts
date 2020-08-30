@@ -1,6 +1,6 @@
-import { GameType } from '../enums';
+import { GameType, Check } from '../enums';
 import { TeamPlayer } from './TeamPlayer';
-import { Results } from './Results';
+import { Result } from './Results';
 
 export interface Game {
   id: number;
@@ -12,11 +12,15 @@ export interface Game {
   sets: number;
   bet: number;
   prizePool: string;
+  checkIn: Check;
+  checkOut: Check;
+  startScore: number;
+  tieBreak: number;
   createdAt: Date;
   startedAt: Date;
   endedAt: Date;
   pendingPlayers?: TeamPlayer[];
-  results?: Results[];
+  results?: Result[];
 }
 
 export interface CreateGame {
