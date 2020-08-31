@@ -30,4 +30,8 @@ export interface CreateGame {
   legs: number;
   sets: number;
   bet: number;
+  checkIn: Check;
+  checkOut: Check;
+  startScore: number;
+  tieBreak: number;
 }
