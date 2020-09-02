@@ -2,6 +2,6 @@ export interface Result {
   teamId: number;
   playerId: number;
   position: number;
-  gainedXp: number;
+  earnedXp: number;
   win: number;
 }

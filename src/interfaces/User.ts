@@ -26,6 +26,7 @@ export interface Identity {
 export interface MetaData {
   currency: string;
   bootstrapped: boolean;
+  rake: number;
 }
 
 export interface Bank {
