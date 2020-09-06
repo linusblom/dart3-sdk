@@ -27,6 +27,8 @@ export interface MetaData {
   currency: string;
   bootstrapped: boolean;
   rake: number;
+  jackpotFee: number;
+  nextJackpotFee: number;
 }
 
 export interface Bank {
