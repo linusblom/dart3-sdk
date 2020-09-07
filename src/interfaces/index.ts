@@ -11,3 +11,4 @@ export * from './MatchTeam';
 export * from './Match';
 export * from './Jackpot';
 export * from './Results';
+export * from './Invoice';

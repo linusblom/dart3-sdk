@@ -29,10 +29,12 @@ export interface MetaData {
   rake: number;
   jackpotFee: number;
   nextJackpotFee: number;
+  gemChance: string;
 }
 
 export interface Bank {
   players: string;
   turnOver: string;
   inPlay: string;
+  rake: string;
 }
