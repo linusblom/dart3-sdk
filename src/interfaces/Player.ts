@@ -11,6 +11,7 @@ export interface Player {
   avatar: string;
   xp: number;
   pro: boolean;
+  double: number;
   turnOver?: string;
   net?: string;
   balance?: string;
