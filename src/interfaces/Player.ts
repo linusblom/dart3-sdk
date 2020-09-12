@@ -26,4 +26,5 @@ export interface CreatePlayer {
 export interface UpdatePlayer {
   name: string;
   pro: number;
+  double: number;
 }
