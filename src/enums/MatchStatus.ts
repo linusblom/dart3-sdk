@@ -1,6 +1,6 @@
 export enum MatchStatus {
-  Waiting = 'waiting',
-  Ready = 'ready',
+  Pending = 'pending',
+  Order = 'order',
   Playing = 'playing',
   Completed = 'completed',
 }
