@@ -1,7 +1,8 @@
 export interface Invoice {
   id: number;
-  userId: string;
-  balance: number;
+  debit: string;
+  credit: string;
+  balance: string;
   startAt: Date;
   endAt: Date;
   dueAt: Date;
