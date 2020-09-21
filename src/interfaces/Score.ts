@@ -2,11 +2,14 @@ import { RoundHit } from './Hit';
 import { Match } from './Match';
 import { MatchTeam } from './MatchTeam';
 import { Game } from './Game';
-import { RoundJackpot } from '.';
+import { RoundJackpot } from './Jackpot';
+import { Target } from '../enums';
 
 export interface Score {
   value: number;
   multiplier: number;
+  bullDistance: number;
+  target: Target;
 }
 
 export interface ScoreApproved extends Score {
