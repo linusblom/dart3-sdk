@@ -3,7 +3,7 @@ import { Match } from './Match';
 import { MatchTeam } from './MatchTeam';
 import { Game } from './Game';
 import { RoundJackpot } from './Jackpot';
-import { Target } from '../enums';
+import { Target, HitType } from '../enums';
 
 export interface Score {
   value: number;
@@ -12,12 +12,13 @@ export interface Score {
   target: Target;
 }
 
-export interface ScoreApproved extends Score {
-  approvedScore: number;
+export interface HitScore extends Score {
+  approved: number;
+  type: HitType;
 }
 
 export interface RoundScore {
-  scores: ScoreApproved[];
+  scores: HitScore[];
   nextScore: number;
   xp: number;
 }

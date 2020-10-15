@@ -8,7 +8,7 @@ export interface Hit {
   set: number;
   value: number;
   multiplier: number;
-  approvedScore: number;
+  approved: number;
   gem: boolean;
 }
 
@@ -17,6 +17,6 @@ export interface RoundHit {
   matchTeamId: number;
   round: number;
   score: number;
-  approvedScore: number;
+  approved: number;
   gems: boolean[];
 }
