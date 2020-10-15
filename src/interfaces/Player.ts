@@ -12,7 +12,7 @@ export interface Player {
   xp: number;
   pro: boolean;
   double: number;
-  pinDisabled?: boolean;
+  pinDisabled: boolean;
   turnOver?: string;
   net?: string;
   balance?: string;
