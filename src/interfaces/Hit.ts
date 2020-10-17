@@ -1,3 +1,5 @@
+import { HitType, Target } from '../enums';
+
 export interface Hit {
   id: number;
   matchTeamId: number;
@@ -9,6 +11,9 @@ export interface Hit {
   value: number;
   multiplier: number;
   approved: number;
+  target: Target;
+  type: HitType;
+  bullDistance: number;
   gem: boolean;
 }
 
