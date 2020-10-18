@@ -8,8 +8,8 @@ import { Target, HitType } from '../enums';
 export interface Score {
   value: number;
   multiplier: number;
-  bullDistance: number;
   target: Target;
+  bullDistance?: number;
 }
 
 export interface HitScore extends Score {

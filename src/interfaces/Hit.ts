@@ -13,7 +13,6 @@ export interface Hit {
   approved: number;
   target: Target;
   type: HitType;
-  bullDistance: number;
   gem: boolean;
 }
 
