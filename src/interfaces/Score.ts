@@ -17,12 +17,6 @@ export interface HitScore extends Score {
   type: HitType;
 }
 
-export interface RoundScore {
-  scores: HitScore[];
-  nextScore: number;
-  xp: number;
-}
-
 export interface RoundResponse {
   game?: Partial<Game>;
   matches: Partial<Match>[];

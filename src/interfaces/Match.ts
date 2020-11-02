@@ -11,6 +11,8 @@ export interface Match {
   activeLeg: number;
   activeMatchTeamId: number;
   activePlayerId: number;
+  activeStartOrder: number;
+  activeScore: number;
   stage: number;
   createdAt: Date;
   startedAt: Date;
