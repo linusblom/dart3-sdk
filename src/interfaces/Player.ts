@@ -1,5 +1,7 @@
 import { Transaction } from './Transaction';
 
+export const GRAVATAR = 'gravatar';
+
 export interface Player {
   id: number;
   uid: string;
@@ -28,4 +30,5 @@ export interface UpdatePlayer {
   name: string;
   pro: number;
   double: number;
+  avatar: string;
 }
