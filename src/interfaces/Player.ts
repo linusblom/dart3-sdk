@@ -19,6 +19,7 @@ export interface Player {
   net?: string;
   balance?: string;
   transactions?: Transaction[];
+  statistics?: Statistics;
 }
 
 export interface CreatePlayer {
@@ -28,7 +29,15 @@ export interface CreatePlayer {
 
 export interface UpdatePlayer {
   name: string;
-  pro: number;
+  pro: boolean;
   double: number;
   avatar: string;
+}
+
+export interface Statistics {
+  hits: number;
+  misses: number;
+  highest: number;
+  average: number;
+  oneHundredEighty: number;
 }
