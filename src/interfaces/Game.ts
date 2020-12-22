@@ -5,6 +5,7 @@ import { Result } from './Results';
 export interface Game {
   id: number;
   uid: string;
+  userId: string;
   type: GameType;
   random: boolean;
   tournament: boolean;

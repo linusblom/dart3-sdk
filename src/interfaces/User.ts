@@ -28,7 +28,7 @@ export interface MetaData {
   jackpotFee: number;
   nextJackpotFee: number;
   rake: number;
-  gemChance: string;
+  gemChance: number;
 }
 
 export interface Bank {
