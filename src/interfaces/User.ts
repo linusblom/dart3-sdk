@@ -11,7 +11,7 @@ export interface User {
   lastIp: string;
   lastLogin: Date;
   loginCount: number;
-  userMetadata: MetaData;
+  metadata: MetaData;
   identities: Identity[];
   bank: Bank;
 }
@@ -25,10 +25,9 @@ export interface Identity {
 
 export interface MetaData {
   currency: string;
-  bootstrapped: boolean;
-  rake: number;
   jackpotFee: number;
   nextJackpotFee: number;
+  rake: number;
   gemChance: string;
 }
 
