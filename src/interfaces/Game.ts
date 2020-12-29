@@ -38,3 +38,9 @@ export interface CreateGame {
   startScore: number;
   tieBreak: number;
 }
+
+export interface StartGame {
+  tournament: boolean;
+  team: boolean;
+  random: boolean;
+}
