@@ -14,9 +14,9 @@ export interface Match {
   activeStartOrder: number;
   activeScore: number;
   stage: number;
-  createdAt: Date;
-  startedAt: Date;
-  endedAt: Date;
+  createdAt: string;
+  startedAt: string;
+  endedAt: string;
 }
 
 export interface MatchResponse {

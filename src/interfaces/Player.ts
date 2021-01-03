@@ -7,8 +7,8 @@ export interface Player {
   uid: string;
   name: string;
   email: string;
-  createdAt: Date;
-  deletedAt: Date;
+  createdAt: string;
+  deletedAt: string;
   color: string;
   avatar: string;
   xp: number;

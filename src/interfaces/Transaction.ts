@@ -6,7 +6,7 @@ export interface Transaction {
   debit: string;
   credit: string;
   balance: string;
-  createdAt: Date;
+  createdAt: string;
 }
 
 export interface CreateTransaction {

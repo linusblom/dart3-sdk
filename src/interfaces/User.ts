@@ -6,10 +6,10 @@ export interface User {
   nickname: string;
   emailVerified: boolean;
   picture: string;
-  createdAt: Date;
-  updatedAt: Date;
+  createdAt: string;
+  updatedAt: string;
   lastIp: string;
-  lastLogin: Date;
+  lastLogin: string;
   loginCount: number;
   metaData: MetaData;
   identities: Identity[];

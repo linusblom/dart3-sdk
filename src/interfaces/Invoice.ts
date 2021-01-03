@@ -3,8 +3,8 @@ export interface Invoice {
   debit: string;
   credit: string;
   balance: string;
-  startAt: Date;
-  endAt: Date;
-  dueAt: Date;
-  paidAt: Date;
+  startAt: string;
+  endAt: string;
+  dueAt: string;
+  paidAt: string;
 }

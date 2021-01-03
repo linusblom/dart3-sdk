@@ -18,9 +18,9 @@ export interface Game {
   checkOut: Check;
   startScore: number;
   tieBreak: number;
-  createdAt: Date;
-  startedAt: Date;
-  endedAt: Date;
+  createdAt: string;
+  startedAt: string;
+  endedAt: string;
   pendingPlayers?: TeamPlayer[];
   results?: Result[];
 }
