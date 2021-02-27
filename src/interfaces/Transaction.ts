@@ -12,4 +12,5 @@ export interface Transaction {
 export interface CreateTransaction {
   amount: number;
   description?: string;
+  receiverUid?: string;
 }
