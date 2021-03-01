@@ -10,6 +10,7 @@ export interface Transaction {
 }
 
 export interface CreateTransaction {
+  type: TransactionType;
   amount: number;
   description?: string;
   receiverUid?: string;
