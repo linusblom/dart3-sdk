@@ -1,4 +1,4 @@
-import { Transaction } from './Transaction';
+import { Role } from '../enums';
 
 export const GRAVATAR = 'gravatar';
 
@@ -12,14 +12,14 @@ export interface Player {
   color: string;
   avatar: string;
   xp: number;
-  pro: boolean;
+  roles: Role[];
+  single: number;
   double: number;
+  triple: number;
   pinDisabled: boolean;
   turnOver?: string;
   net?: string;
   balance?: string;
-  transactions?: Transaction[];
-  statistics?: Statistics;
 }
 
 export interface CreatePlayer {
@@ -29,12 +29,14 @@ export interface CreatePlayer {
 
 export interface UpdatePlayer {
   name: string;
-  pro: boolean;
+  roles: Role[];
+  single: number;
   double: number;
+  triple: number;
   avatar: string;
 }
 
-export interface Statistics {
+export interface PlayerStats {
   hits: number;
   misses: number;
   highest: number;

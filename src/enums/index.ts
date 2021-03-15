@@ -4,3 +4,4 @@ export * from './MatchStatus';
 export * from './Check';
 export * from './Target';
 export * from './HitType';
+export * from './Role';
