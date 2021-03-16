@@ -1,6 +1,6 @@
 {
   "name": "dart3-sdk",
-  "version": "1.0.0",
+  "version": "0.3.37",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "source": "src/index.ts",
@@ -8,8 +8,7 @@
   "license": "MIT",
   "repository": "github:linusblom/dart3-sdk",
   "scripts": {
-    "build": "tsc",
-    "prepack": "yarn build"
+    "build": "tsc"
   },
   "devDependencies": {
     "tslint": "^6.1.2",
