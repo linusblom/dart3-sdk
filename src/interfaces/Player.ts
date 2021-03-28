@@ -16,7 +16,6 @@ export interface Player {
   single: number;
   double: number;
   triple: number;
-  pinDisabled: boolean;
   turnOver?: string;
   net?: string;
   balance?: string;
