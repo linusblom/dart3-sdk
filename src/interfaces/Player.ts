@@ -24,6 +24,7 @@ export interface Player {
 export interface CreatePlayer {
   name: string;
   email: string;
+  consent: boolean;
 }
 
 export interface UpdatePlayer {
