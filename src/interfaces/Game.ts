@@ -1,4 +1,4 @@
-import { GameType, Check } from '../enums';
+import { GameType, Check, State } from '../enums';
 import { TeamPlayer } from './TeamPlayer';
 import { Result } from './Results';
 
@@ -7,6 +7,7 @@ export interface Game {
   uid: string;
   userId: string;
   type: GameType;
+  state: State;
   random: boolean;
   tournament: boolean;
   team: boolean;

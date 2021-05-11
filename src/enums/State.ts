@@ -3,5 +3,5 @@ export enum State {
   Pending = 'pending',
   Playing = 'playing',
   Canceled = 'canceled',
-  Finished = 'completed',
+  Finished = 'finished',
 }

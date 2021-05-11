@@ -1,11 +1,11 @@
-import { MatchStatus } from '../enums';
+import { State } from '../enums';
 import { MatchTeam } from './MatchTeam';
 import { RoundHit } from './Hit';
 
 export interface Match {
   id: number;
   gameId: number;
-  status: MatchStatus;
+  state: State;
   activeRound: number;
   activeSet: number;
   activeLeg: number;
